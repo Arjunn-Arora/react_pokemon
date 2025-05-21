@@ -55,7 +55,7 @@ pokemon-app/
 ## 🛠️ Setup Instructions
 
 # 1. Clone the repository:
-   git clone https://github.com/yourusername/pokemon-explorer.git
+   git clone https://github.com/Arjunn-Arora/pokemon-explorer.git
    cd pokemon-explorer
    
 # 2. Install dependencies
