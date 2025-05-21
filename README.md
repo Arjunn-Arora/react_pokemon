@@ -26,7 +26,7 @@
 
 | Category        | Technology             |
 |----------------|------------------------|
-| ⚛️ Frontend    | React.js (v18 or later) |
+| ⚛️ Frontend    | React.js (v19) |
 | 🎨 Styling      | CSS3 (Flexbox, Grid, Animations) |
 | 📦 API         | [PokéAPI](https://pokeapi.co/) |
 | 🧩 Icons        | Lucide Icons |
@@ -55,8 +55,8 @@ pokemon-app/
 ## 🛠️ Setup Instructions
 
 # 1. Clone the repository:
-   git clone https://github.com/Arjunn-Arora/pokemon-explorer.git
-   cd pokemon-explorer
+   git clone https://github.com/Arjunn-Arora/react-pokemon.git
+   cd pokemon-react
    
 # 2. Install dependencies
 npm install
