@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Search } from "lucide-react";
 import "./index.css"
 import { PokemonCards } from "./PokemonCards";
 
@@ -9,7 +10,7 @@ export const Pokemon = () => {
     const [loading, setLoading] = useState(true);
     const [value, setValue] = useState("");
 
-    const API = "https://pokeapi.co/api/v2/pokemon?limit=28";
+    const API = "https://pokeapi.co/api/v2/pokemon?limit=30";
 
     const fetchPokemon = async() => {
         try {
@@ -55,7 +56,14 @@ export const Pokemon = () => {
                     <h1>Let's Catch Pokemon</h1>
                 </header>
                 <div className="pokemon-search">
-                    <input type="text" placeholder="Search Pokemon" value={value} onChange={(e) => setValue(e.target.value)} />
+                <div className="search-wrapper">
+                    <input
+                    type="text"
+                    placeholder="Search Pokémon"
+                    value={value}
+                    onChange={(e) => setValue(e.target.value)}
+                    />
+                </div>
                 </div>
                 <div>
                     <ul className="cards">
